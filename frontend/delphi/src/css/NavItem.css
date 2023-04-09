@@ -1,0 +1,27 @@
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.dark-button {
+    background: #343a40;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.2s, color 0.2s;
+    margin-bottom: 10px;
+}
+
+.dark-button:hover {
+    background: white;
+    color: #343a40;
+    border: 1px solid #343a40;
+    padding: 9px 19px;
+}
+
+.dark-button[disabled] {
+    background-color: white;
+    color: #343a40;
+    border: 1px solid #343a40;
+    padding: 9px 19px;
+    transition: none;
+}

@@ -1,0 +1,25 @@
+.sidebar {
+    height: 75vh;
+    width: 200px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 0.5em;
+}
+
+.sidebar hr {
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+.sidebar .nav-item {
+    padding-left: 0;
+}

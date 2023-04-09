@@ -1,0 +1,29 @@
+.circular-image-input {
+    position: relative;
+}
+
+.circular-image-input label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 0;
+}
+
+.circular-image-input input[type="file"] {
+    display: none;
+}
+
+.circular-image-input:hover label {
+    background-color: rgba(0, 0, 0, 0.7);
+}

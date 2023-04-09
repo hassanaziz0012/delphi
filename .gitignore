@@ -1,0 +1,6 @@
+delphi/delphi/__pycache__/
+delphi/main/__pycache__/
+delphi/main/apis/__pycache__/
+delphi/main/migrations/__pycache__/
+delphi/db.sqlite3
+frontend/delphi/node_modules/

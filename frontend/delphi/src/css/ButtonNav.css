@@ -1,0 +1,27 @@
+.button-nav {
+    display: flex;
+}
+
+.button-nav .dark-button {
+    border-left: none;
+}
+
+.button-nav .dark-button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.button-nav .dark-button:last-child {
+    border-radius: 0 4px 4px 0;
+    border-right: none;
+}
+
+.button-nav .dark-button.active {
+    background-color: white;
+    border: 1px solid black;
+    color: #000;
+}
+
+.button-nav .dark-button.active:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,124 @@
+.movie-details {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1.5em;
+}
+
+.left-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.left-section .user-rating .text-input-container {
+    width: 3.5rem;
+}
+
+.left-section .remove-from-library-link {
+    display: block;
+    color: #000;
+    text-decoration: underline;
+}
+.left-section .remove-from-library-link:hover {
+    cursor: pointer;
+}
+
+.right-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+
+.right-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.right-section h5 {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.right-section .metadata h5 {
+    margin-right: 1rem;
+}
+
+.right-section .metadata h5::after {
+    content: '/';
+    margin-left: 1rem;
+}
+.right-section .metadata h5:nth-child(3)::after {
+    margin-left: 0;
+    content: '';
+}
+
+.right-section a.imdb-link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.right-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+.right-section .show-more-link {
+    color: #000;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right-section h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.right-section h5 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.right-section .horizontal-line {
+    width: 75%;
+    margin: 30px auto;
+    border-top: 1px solid #000;
+}
+
+.right-section .rating {
+    color: #000;
+    font-size: 18px;
+}
+
+.right-section .fa-star {
+    color: #ffd700;
+}
+
+.right-section .see-imdb {
+    margin-top: 10px;
+}
+
+.right-section .see-imdb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.right-section .see-imdb a:hover {
+    color: #ffd700;
+}
